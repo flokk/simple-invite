@@ -1,0 +1,23 @@
+{
+  "name": "simple-invite",
+  "version": "0.0.0",
+  "description": "Simple, hypermedia-driven invitation request service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha -R spec"
+  },
+  "repository": "",
+  "author": "Cameron Bytheway <cameron@nujii.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "simple-db": "0.0.2",
+    "simple-stack": "~0.1.0",
+    "http-error": "0.0.1"
+  },
+  "devDependencies": {
+    "should": "~1.2.1",
+    "supertest": "~0.5.1",
+    "mocha": "~1.7.4"
+  }
+}
